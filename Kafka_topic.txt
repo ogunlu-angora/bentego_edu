@@ -1,0 +1,9 @@
+## Kafka topic yaratma:
+
+(venvspark) [train@localhost ~]$ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic top_women_players --replication-factor 1 --partitions 3
+
+
+
+# Kafka topic'ini dinlemek için :
+
+(venvspark) [train@localhost ~]$ kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic top_women_players
